@@ -9,7 +9,7 @@ from tensorflow.keras.preprocessing import image
 import google.generativeai as genai
 from dotenv import load_dotenv
 
-# === Load environment variables ===
+# === Load environment variables ====
 load_dotenv()
 API_KEY = os.getenv("DisesSugesstionAPIKey")
 
